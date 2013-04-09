@@ -1,0 +1,12 @@
+parameters:
+    esolving_helper.form_helper.class: Esolving\HelperBundle\Helpers\FormHelper
+    esolving_helper.html_helper.class: Esolving\HelperBundle\Helpers\HtmlHelper
+    esolving_helper.url_helper.class: Esolving\HelperBundle\Helpers\UrlHelper
+
+services:
+    esolving_helper.form_helper:
+        class: %esolving_helper.form_helper.class%
+    esolving_helper.html_helper:
+        class: %esolving_helper.html_helper.class%
+    esolving_helper.url_helper:
+        class: %esolving_helper.url_helper.class%
